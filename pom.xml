@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>Project1</groupId>
-	<artifactId>Project1</artifactId>
+	<groupId>Project2</groupId>
+	<artifactId>Project2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Project1-Microservice</name>
-	<description>Project1 Product Microservice</description>
+	<name>Project2-Microservice</name>
+	<description>Project2 Order Microservice</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -89,7 +89,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+		</plugins>
+		<plugin>
 <groupId>org.sonarsource.scanner.maven</groupId>
 <artifactId>sonar-maven-plugin</artifactId>
 <version>3.3.0.603</version>
@@ -102,7 +103,6 @@
 </execution>
 </executions>
 </plugin>
-		</plugins>
 	</build>
 
 <repositories>
